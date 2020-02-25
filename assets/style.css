@@ -1,3 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 
+header {
+  width: 100vw;
+  background-color: #7f8587;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 150px;
+}
+header nav .nav__logo {
+  width: 100px;
+  height: 100px;
+}
+header nav .nav__logo img {
+  width: 100%;
+}
+header nav .nav__menu {
+  width: 60vw;
+}
+header nav .nav__menu ul {
+  display: flex;
+  justify-content: space-between;
+}
+header nav .nav__menu ul li {
+  list-style: none;
+  color: #ffffff;
+}
+header nav .nav__account {
+  width: 100px;
+  height: 100px;
+}
+header nav .nav__account img {
+  width: 100%;
+}
 
 /*# sourceMappingURL=style.css.map */

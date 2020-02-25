@@ -1,8 +1,56 @@
 // Variables
+$black: #000000;
+$white: #ffffff;
+$grey: #7f8587;
 
+//Global
+body {
+  margin: 0;
+  padding: 0;
+}
 
 //Header
+header {
+  width: 100vw;
+  background-color: $grey;
 
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+
+    .nav__logo {
+      width: 100px;
+      height: 100px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .nav__menu {
+      width:60vw;
+      ul {
+        display: flex;
+        justify-content: space-between;
+        li {
+          list-style: none;
+          color: $white;
+        }
+      }
+    }
+
+    .nav__account {
+      width: 100px;
+      height: 100px;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
 //Slide
 
 //Research
