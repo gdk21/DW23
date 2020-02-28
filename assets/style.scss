@@ -12,13 +12,14 @@ body {
 //Header
 header {
   width: 100vw;
-  background-color: $grey;
 
   nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 150px;
+    background-color: $grey;
+
 
     .nav__logo {
       width: 100px;
@@ -34,6 +35,7 @@ header {
       ul {
         display: flex;
         justify-content: space-between;
+
         li {
           list-style: none;
           color: $white;
@@ -50,12 +52,139 @@ header {
       }
     }
   }
+
+  .header__breadcrumbs {
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 25px;
+  }
+
+  .header__search {
+    display: inline-block;
+    float: right;
+    margin-top: 25px;
+    margin-right: 25px;
+  }
 }
 //Slide
+.slide {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 25px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Abondance_%28fromage%29_01.jpg/1200px-Abondance_%28fromage%29_01.jpg");
+  background-size: cover;
+  height: 400px;
+
+  .slide__arrow--left {
+    transform: rotate(180deg);
+    margin-right: 20vw;
+    img {
+      height:100px;
+    }
+  }
+
+  .slide__arrow--right {
+    margin-left: 20vw;
+
+    img {
+      height:100px;
+    }
+  }
+}
+
 
 //Research
 
+.research {
+  width: 100vw;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: $black;
+
+  .research__tile {
+    width: 20%;
+    height: 60%;
+    background-color: $white;
+    display: inline-block;
+
+    .research__tile__header {
+      height: 100%;
+      width: 50%;
+      border-right: 1px solid $black;
+    }
+
+    .research__tile__content {
+      height: 100%;
+      width: 50%;
+    }
+  }
+}
+
 //Discover
 
-//Footer
+.discover {
+  width: 100vw;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: $grey;
 
+  .discover__tile {
+    width: 20%;
+    height: 60%;
+    background-color: $white;
+    display: inline-block;
+
+    .discover__tile__header {
+      height: 100%;
+      width: 50%;
+      border-right: 1px solid $black;
+    }
+
+    .discover__tile__content {
+      height: 100%;
+      width: 50%;
+    }
+  }
+}
+
+//Footer
+footer {
+  height: 150px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .footer__text {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 65%;
+
+    .footer__text--left {
+      width: 40%;
+    }
+
+    .footer__text--right {
+      width: 40%;
+    }
+  }
+
+  .footer__social {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 50px;
+    width: 30%;
+    img {
+      height: 50px;
+      width: 50px;
+    }
+  }
+}
