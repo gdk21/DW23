@@ -1,3 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 
+header {
+  width: 100vw;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 150px;
+  background-color: #7f8587;
+}
+header nav .nav__logo {
+  width: 100px;
+  height: 100px;
+}
+header nav .nav__logo img {
+  width: 100%;
+}
+header nav .nav__menu {
+  width: 60vw;
+}
+header nav .nav__menu ul {
+  display: flex;
+  justify-content: space-between;
+}
+header nav .nav__menu ul li {
+  list-style: none;
+  color: #ffffff;
+}
+header nav .nav__account {
+  width: 100px;
+  height: 100px;
+}
+header nav .nav__account img {
+  width: 100%;
+}
+header .header__breadcrumbs {
+  display: inline-block;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+header .header__search {
+  display: inline-block;
+  float: right;
+  margin-top: 25px;
+  margin-right: 25px;
+}
+
+.slide {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 25px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Abondance_%28fromage%29_01.jpg/1200px-Abondance_%28fromage%29_01.jpg");
+  background-size: cover;
+  height: 400px;
+}
+.slide .slide__arrow--left {
+  transform: rotate(180deg);
+  margin-right: 20vw;
+}
+.slide .slide__arrow--left img {
+  height: 100px;
+}
+.slide .slide__arrow--right {
+  margin-left: 20vw;
+}
+.slide .slide__arrow--right img {
+  height: 100px;
+}
+
+.research {
+  width: 100vw;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #000000;
+}
+.research .research__tile {
+  width: 20%;
+  height: 60%;
+  background-color: #ffffff;
+  display: inline-block;
+}
+.research .research__tile .research__tile__header {
+  height: 100%;
+  width: 50%;
+  border-right: 1px solid #000000;
+}
+.research .research__tile .research__tile__content {
+  height: 100%;
+  width: 50%;
+}
+
+.discover {
+  width: 100vw;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #7f8587;
+}
+.discover .discover__tile {
+  width: 20%;
+  height: 60%;
+  background-color: #ffffff;
+  display: inline-block;
+}
+.discover .discover__tile .discover__tile__header {
+  height: 100%;
+  width: 50%;
+  border-right: 1px solid #000000;
+}
+.discover .discover__tile .discover__tile__content {
+  height: 100%;
+  width: 50%;
+}
+
+footer {
+  height: 150px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .footer__text {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 65%;
+}
+footer .footer__text .footer__text--left {
+  width: 40%;
+}
+footer .footer__text .footer__text--right {
+  width: 40%;
+}
+footer .footer__social {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 50px;
+  width: 30%;
+}
+footer .footer__social img {
+  height: 50px;
+  width: 50px;
+}
 
 /*# sourceMappingURL=style.css.map */
