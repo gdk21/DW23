@@ -45,7 +45,7 @@ header .header__breadcrumbs {
 }
 header .header__search {
   display: inline-block;
-  float: right;
+  float: none;
   margin-top: 25px;
   margin-right: 25px;
 }
